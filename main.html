@@ -4,13 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Task333</title>
+    <link rel="stylesheet" href="extrapage.css">
+
+    <style>
+        h1{
+            color: darkblue;
+        }
+        h1 + ul {
+            background-color: darkviolet;
+            direction: rtl;
+            opacity: 50%;
+        }
+        h1 ~ ul {
+            color: indianred;
+            opacity: 50%;
+        }
+        dl dt {
+            opacity: 60%;
+        }
+        dt:first-child {
+            background-color: seagreen;
+        }
+        dt::after {
+            content: " ❤️";
+        }
+    </style>
+
 </head>
 <body>
     <nav>
         <a href="/" aria-current="page">Home</a>
         <a href="/auth.html">Auth page</a>
         <a href="/login.html">Login page</a>
+        <a href="/extrapage.html">Extra page</a>
+
     </nav>
     <h1 style="text-align:center;">Художественная литература по жанрам</h1>
     <table>
@@ -59,6 +87,11 @@
         <li>Кофе готов. Очистите рожок от остатков зерен/вытащите капсулу (кофе нельзя заварить из одного сырья два раза). Примерно через 15 минут машина перейдет в режим ожидания.</li>
 
     </ol>
+    <ul>
+        <li>Настройте температуру воды. У профессиональных моделей это можно сделать с точностью до градуса (рекомендуется 86-95), но у домашних моделей настройки, как правило, ограничиваются "низкой, стандартной и высокой" температурами.</li>
+        <li>Отрегулируйте количество воды на чашку.</li>
+
+    </ul>
     <h1 style="text-align:center;">Описание струнных музыкальных инструментов</h1>
     <dl>
         <dt>Скрипка</dt>
